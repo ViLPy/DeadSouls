@@ -1,0 +1,17 @@
+{
+    "id":"pistol",
+    "fireSpeed":0.3,
+    "reloadSpeed":1,
+    "ammoAmount":10,
+    "isAuto":true,
+    "isGrenade":false,
+    "power":1500,
+    "spread":3,
+    "mortality":10,
+    "mortalityHead":30,
+    "totalAmmo": 999,
+    "sound":"pistol",
+    "soundSettings":{
+        "volume":0.2
+    }
+}

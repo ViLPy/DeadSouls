@@ -1,0 +1,11 @@
+{
+    "id":"grenade",
+    "fireSpeed":1,
+    "reloadSpeed":0,
+    "ammoAmount":5,
+    "isAuto":true,
+    "isGrenade":true,
+    "isExplodable":true,
+    "power":10,
+    "totalAmmo": 5
+}

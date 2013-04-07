@@ -1,0 +1,23 @@
+{
+    "id":"sniper",
+    "fireSpeed":1,
+    "reloadSpeed":3,
+    "ammoAmount":1,
+    "isAuto":true,
+    "isGrenade":false,
+    "power":8000,
+    "spread": 0,
+    "mortality": 60,
+    "mortalityHead": 200,
+    "totalAmmo": 20,
+    "sprite": {
+        "atlas":"player",
+        "img":"sniper_i.png",
+        "scale": {"x":-1, "y":1},
+        "center": {"x":5, "y":0}
+    },
+    "sound":"sniper",
+    "soundSettings":{
+        "volume":0.2
+    }
+}

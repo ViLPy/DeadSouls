@@ -1,0 +1,499 @@
+{
+	"menu-common": {
+		"sound": {
+			"type": "image",
+			"x": 700,
+			"y": 500,
+			"atlas": "player",
+			"src": "sound_on.png",
+			"alpha": 0.5,
+			"mouseEventData": {
+				"alpha": 1
+			}
+		}
+	},
+	"menu-stage1": {
+		"menu": {
+			"type": "text",
+			"x": 100,
+			"y": 50,
+			"h":64,
+			"text":"MENU",
+			"color": "#ffffff",
+			"font": "52px MSU1"
+		},
+		"typingGame": {
+			"type": "text",
+			"x": 100,
+			"y": 150,
+			"h":40,
+			"text":"TYPING SHOOTER",
+			"color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+		},
+		"battleArena": {
+			"type": "text",
+			"x": 100,
+			"y": 200,
+			"h":40,
+			"text":"BATTLE ARENA",
+			"color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+		}
+	},
+	"menu-typing-settings": {
+		"menu": {
+			"type": "text",
+			"x": 100,
+			"y": 50,
+			"h":64,
+			"text":"Typing mode",
+			"color": "#ffffff",
+			"font": "52px MSU1"
+		},
+		"modeWords": {
+			"type": "text",
+			"x": 100,
+			"y": 150,
+			"h":30,
+			"text":"Dictionary",
+			"color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+		},
+		"modeHome": {
+			"type": "text",
+			"x": 100,
+			"y": 200,
+			"h":30,
+			"text":"Home row",
+			"color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+		},
+		"back": {
+			"type": "text",
+			"x": 100,
+			"y": 280,
+			"h":40,
+			"text":"<Back",
+			"color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+		}
+	},
+
+	"game-menu": {
+		"title": {
+			"type": "text",
+			"x": 100,
+			"y": 50,
+			"h":40,
+			"text":"PAUSED",
+			"color": "#ffffff",
+			"font": "52px MSU1"
+		},
+		"restart": {
+			"type": "text",
+			"x": 100,
+			"y": 150,
+			"h":40,
+			"text":"RESTART",
+			"color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+		},
+		"exit": {
+			"type": "text",
+			"x": 100,
+			"y": 200,
+			"h":40,
+			"text":"EXIT",
+			"color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+		}
+	},
+	"game-hud":{
+		"back": {
+            "type": "rect",
+            "x": 0,
+            "y": 0,
+            "w": 800,
+            "h": 60,
+            "color": "#101010"
+        },
+		"hpIcon": {
+			"type": "image",
+			"x": 10,
+			"y": 540,
+			"atlas": "player",
+			"src": "heart.png"
+		},
+		"hpFull": {
+			"type": "rect",
+			"x": 40,
+			"y": 540,
+			"w": 150, 
+			"h":20,
+			"color": "rgba(255,255,255,0.2)"
+		},
+		"hp": {
+			"type": "rect",
+			"x": 40,
+			"y": 540,
+			"w": 150, 
+			"h":20,
+			"color": "#ffffff"
+		},
+		"ammo": {
+			"type": "text",
+			"x": 725,
+			"y": 540,
+			"h":20,
+			"text":"0/0",
+			"color": "#ffffff",
+			"font": "15px MSU1"
+		},
+		"weapon": {
+			"type": "image",
+			"x": 600,
+			"y": 540,
+			"atlas": "player",
+			"src": "machinegun.png",
+			"alpha": 1
+		},
+		"grenadeIco": {
+			"type": "image",
+			"x": 540,
+			"y": 540,
+			"atlas": "player",
+			"src": "grenade.png"
+		},
+		"grenadeAmmo": {
+			"type": "text",
+			"x": 570,
+			"y": 540,
+			"h":20,
+			"text":"0",
+			"color": "#ffffff",
+			"font": "15px MSU1"
+		},
+		"score": {
+			"type": "text",
+			"x": 350,
+			"y": 60,
+			"h":25,
+			"text":"",
+			"color": "#ffffff",
+			"font": "20px MSU1"
+		},
+		"akStatusTotal": {
+			"type": "rect",
+			"x": 187,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "rgba(255,255,255,0.2)"
+		},
+		"akStatus": {
+			"type": "rect",
+			"x": 187,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "#ffffff"
+		},
+		"akPic": {
+			"type": "image",
+			"x": 150,
+			"y": 20,
+			"atlas": "player",
+			"src": "machinegun.png",
+			"alpha": 0.5
+		},
+		"shotgunStatusTotal": {
+			"type": "rect",
+			"x": 307,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "rgba(255,255,255,0.2)"
+		},
+		"shotgunStatus": {
+			"type": "rect",
+			"x": 307,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "#ffffff"
+		},
+		"shotgunPic": {
+			"type": "image",
+			"x": 270,
+			"y": 20,
+			"atlas": "player",
+			"src": "shotgun.png",
+			"alpha": 0.5
+		},
+		"grenadeLauncherStatusTotal": {
+			"type": "rect",
+			"x": 437,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "rgba(255,255,255,0.2)"
+		},
+		"grenadeLauncherStatus": {
+			"type": "rect",
+			"x": 437,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "#ffffff"
+		},
+		"grenadeLauncherPic": {
+			"type": "image",
+			"x": 400,
+			"y": 20,
+			"atlas": "player",
+			"src": "rocketlauncher.png",
+			"alpha": 0.5
+		},
+		"sniperStatusTotal": {
+			"type": "rect",
+			"x": 577,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "rgba(255,255,255,0.2)"
+		},
+		"sniperStatus": {
+			"type": "rect",
+			"x": 577,
+			"y": 10,
+			"w": 50, 
+			"h":4,
+			"color": "#ffffff"
+		},
+		"sniperPic": {
+			"type": "image",
+			"x": 530,
+			"y": 20,
+			"atlas": "player",
+			"src": "sniper.png",
+			"alpha": 0.5
+		},
+		"enemyFlagCaptured": {
+			"type": "image",
+			"x": 350,
+			"y": 90,
+			"atlas":"player",
+			"src": "blackflag.png",
+			"alpha": 0
+		},
+		"friendFlagCaptured": {
+			"type": "image",
+			"x": 395,
+			"y": 90,
+			"atlas":"player",
+			"src": "whiteflag.png",
+			"alpha": 0
+		}
+	},
+	"score": {
+        "back": {
+            "type": "rect",
+            "x": 30,
+            "y": 30,
+            "w": 740,
+            "h": 540,
+            "color": "rgba(155,155,155,0.8)",
+            "stroke": "#202020"
+        },
+        "score": {
+            "type": "text",
+            "x": 345,
+            "y": 45,
+            "h":25,
+            "text":"SCORE",
+            "color": "#ffffff",
+            "font": "30px MSU1"
+        },
+        "hLine1": {
+            "type": "rect",
+            "x": 40,
+            "y": 90,
+            "w": 720,
+            "h": 2,
+            "color": "rgba(80,80,80,0.8)"
+        },
+        "friendScore": {
+            "type": "text",
+            "x": 150,
+            "y": 100,
+            "h":25,
+            "text":"Your team",
+            "color": "#ffffff",
+            "font": "20px MSU1"
+        },
+        "enemyScore": {
+            "type": "text",
+            "x": 530,
+            "y": 100,
+            "h":25,
+            "text":"Enemy team",
+            "color": "#ffffff",
+            "font": "20px MSU1"
+        },
+        "vLine1": {
+            "type": "rect",
+            "x": 399,
+            "y": 110,
+            "w": 2,
+            "h": 430,
+            "color": "rgba(80,80,80,0.8)"
+        }
+	},
+    "typing-game": {
+    	"back": {
+            "type": "rect",
+            "x": 0,
+            "y": 0,
+            "w": 800,
+            "h": 40,
+            "color": "#101010"
+        },
+    	"score": {
+            "type": "text",
+            "x": 5,
+            "y": 5,
+            "h":25,
+            "text":"",
+            "color": "#ffffff",
+            "font": "20px MSU1"
+        },
+        "type": {
+            "type": "text",
+            "x": 356,
+            "y": 570,
+            "h":25,
+            "text":"type this",
+            "color": "#ffffff",
+            "font": "15px MSU1"
+        },
+        "wpm": {
+            "type": "text",
+            "x": 510,
+            "y": 5,
+            "h":25,
+            "text":"",
+            "color": "#ffffff",
+            "font": "20px MSU1"
+        },
+        "lifeAmount": {
+            "type": "text",
+            "x": 358,
+            "y": 470,
+            "h":25,
+            "text":"",
+            "color": "#d0d0d0",
+            "font": "10px MSU1"
+        },
+        "grenadeLauncherPic": {
+			"type": "image",
+			"x": 620,
+			"y": 540,
+			"atlas": "player",
+			"src": "rocketlauncher.png",
+			"alpha": 1
+		},
+		"grenadesAmount": {
+            "type": "text",
+            "x": 720,
+            "y": 538,
+            "h":25,
+            "text":"",
+            "color": "#d0d0d0",
+            "font": "20px MSU1"
+        }
+    },
+    "typing-score-window": {
+    	"back": {
+            "type": "rect",
+            "x": 200,
+            "y": 200,
+            "w": 400,
+            "h": 200,
+            "color": "#707070",
+            "stroke": "#404040"
+        },
+        "gameOver": {
+            "type": "text",
+            "x": 310,
+            "y": 210,
+            "h":25,
+            "text":"game over",
+            "color": "#f0f0f0",
+            "font": "30px MSU1"
+        },
+        "score": {
+            "type": "text",
+            "x": 210,
+            "y": 260,
+            "h":25,
+            "text":"your score: ",
+            "color": "#f0f0f0",
+            "font": "20px MSU1"
+        },
+        "wpm": {
+            "type": "text",
+            "x": 210,
+            "y": 300,
+            "h":25,
+            "text":"Words/Minute: ",
+            "color": "#f0f0f0",
+            "font": "20px MSU1"
+        },
+        "restart": {
+            "type": "text",
+            "x": 210,
+            "y": 350,
+            "h":35,
+            "text":"restart",
+            "color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+        },
+        "exit": {
+            "type": "text",
+            "x": 510,
+            "y": 350,
+            "h":35,
+            "text":"exit",
+            "color": "rgba(255,255,255,0.5)",
+			"font": "30px MSU1",
+			"mouseEventData": {
+				"color": "rgba(255,255,255,1)"
+			}
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id":"grenadeLauncher",
+    "fireSpeed":0.5,
+    "reloadSpeed":2,
+    "ammoAmount":6,
+    "isAuto":true,
+    "isGrenade":false,
+    "isExplodable":true,
+    "power":600,
+    "spread": 5,
+    "totalAmmo": 30,
+    "sprite": {
+        "atlas":"player",
+        "img":"rocketlauncher_i.png",
+        "center": {"x":0, "y":0}
+    },
+    "sound":"grenadeLauncher",
+    "soundSettings":{
+        "volume":0.2
+    }
+}

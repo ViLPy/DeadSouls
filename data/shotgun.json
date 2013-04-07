@@ -1,0 +1,24 @@
+{
+    "id":"shotgun",
+    "fireSpeed":0.5,
+    "reloadSpeed":2,
+    "ammoAmount":6,
+    "isAuto":true,
+    "isGrenade":false,
+    "power":2000,
+    "spread":10,
+    "mortality":8,
+    "mortalityHead":10,
+    "bulletsPerTime":5,
+    "bulletPowerSpread": 500,
+    "totalAmmo": 60,
+    "sprite": {
+        "atlas":"player",
+        "img":"shotgun_i.png",
+        "center": {"x":2, "y":0}
+    },
+    "sound":"shotgun",
+    "soundSettings":{
+        "volume":0.2
+    }
+}

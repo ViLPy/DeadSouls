@@ -1,0 +1,23 @@
+{
+    "id":"typing.rocket",
+    "fireSpeed":0.05,
+    "reloadSpeed":0,
+    "ammoAmount":5,
+    "isAuto":true,
+    "isExplodable": true,
+    "isGrenade":false,
+    "power":3000,
+    "spread": 0,
+    "mortality": 0,
+    "mortalityHead": 0,
+    "totalAmmo": 0,
+    "sprite": {
+        "atlas":"player",
+        "img":"rocketlauncher_i.png",
+        "center": {"x":0, "y":0}
+    },
+    "sound":"grenadeLauncher",
+    "soundSettings":{
+        "volume":0.2
+    }
+}

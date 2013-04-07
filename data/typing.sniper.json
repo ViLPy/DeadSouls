@@ -1,0 +1,23 @@
+{
+    "id":"typing.sniper",
+    "fireSpeed":0.05,
+    "reloadSpeed":0.05,
+    "ammoAmount":9999999,
+    "isAuto":true,
+    "isGrenade":false,
+    "power":8000,
+    "spread": 0,
+    "mortality": 0,
+    "mortalityHead": 0,
+    "totalAmmo": 9999999,
+    "sprite": {
+        "atlas":"player",
+        "img":"machinegun_i.png",
+        "scale": {"x":-1, "y":1},
+        "center": {"x":5, "y":0}
+    },
+    "sound":"pistol",
+    "soundSettings":{
+        "volume":0.2
+    }
+}

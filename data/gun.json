@@ -1,0 +1,22 @@
+{
+    "id":"ak",
+    "fireSpeed":0.1,
+    "reloadSpeed":2,
+    "ammoAmount":45,
+    "isAuto":true,
+    "isGrenade":false,
+    "power":3000,
+    "spread": 5,
+    "mortality": 7,
+    "mortalityHead": 14,
+    "totalAmmo": 225,
+    "sprite": {
+        "atlas":"player",
+        "img":"machinegun_i.png",
+        "center": {"x":5, "y":0}
+    },
+    "sound":"shoot",
+    "soundSettings":{
+        "volume":0.2
+    }
+}
