@@ -242,6 +242,7 @@ define(['js/json.loader', 'js/entity.manager', 'js/level', 'js/img.loader', 'js/
                     this.renderScore(renderer, guiRenderer);
                     break;
             }
+            guiRenderer.drawImage(ImgManager.getImage("player", "crosshair.png"), Input.mousePosition().x, Input.mousePosition().y);
         };
         return State;
     });

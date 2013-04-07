@@ -865,8 +865,16 @@
 	"sourceSize": {"w":12,"h":12}
 },
 {
+	"filename": "crosshair.png",
+	"frame": {"x":2,"y":296,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+},
+{
 	"filename": "empty.png",
-	"frame": {"x":2,"y":296,"w":12,"h":12},
+	"frame": {"x":20,"y":296,"w":12,"h":12},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":12},
@@ -874,7 +882,7 @@
 },
 {
 	"filename": "grass.png",
-	"frame": {"x":16,"y":296,"w":64,"h":32},
+	"frame": {"x":34,"y":296,"w":64,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":32},
@@ -882,7 +890,7 @@
 },
 {
 	"filename": "grenade.png",
-	"frame": {"x":82,"y":296,"w":20,"h":25},
+	"frame": {"x":100,"y":296,"w":20,"h":25},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":25},
@@ -890,7 +898,7 @@
 },
 {
 	"filename": "hand.png",
-	"frame": {"x":104,"y":296,"w":12,"h":12},
+	"frame": {"x":122,"y":296,"w":12,"h":12},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":12},
@@ -898,7 +906,7 @@
 },
 {
 	"filename": "hands.png",
-	"frame": {"x":118,"y":296,"w":15,"h":15},
+	"frame": {"x":136,"y":296,"w":15,"h":15},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":15},
@@ -906,7 +914,7 @@
 },
 {
 	"filename": "head.png",
-	"frame": {"x":135,"y":296,"w":12,"h":12},
+	"frame": {"x":153,"y":296,"w":12,"h":12},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":12},
@@ -914,7 +922,7 @@
 },
 {
 	"filename": "heart.png",
-	"frame": {"x":149,"y":296,"w":23,"h":21},
+	"frame": {"x":167,"y":296,"w":23,"h":21},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":21},
@@ -922,7 +930,7 @@
 },
 {
 	"filename": "hpup.png",
-	"frame": {"x":174,"y":296,"w":10,"h":10},
+	"frame": {"x":192,"y":296,"w":10,"h":10},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
@@ -930,7 +938,7 @@
 },
 {
 	"filename": "leg.png",
-	"frame": {"x":186,"y":296,"w":12,"h":12},
+	"frame": {"x":204,"y":296,"w":12,"h":12},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":12},
@@ -938,7 +946,7 @@
 },
 {
 	"filename": "machinegun.png",
-	"frame": {"x":200,"y":296,"w":125,"h":30},
+	"frame": {"x":218,"y":296,"w":125,"h":30},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":30},
@@ -946,7 +954,7 @@
 },
 {
 	"filename": "machinegun_i.png",
-	"frame": {"x":327,"y":296,"w":38,"h":9},
+	"frame": {"x":345,"y":296,"w":38,"h":9},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":9},
@@ -954,7 +962,7 @@
 },
 {
 	"filename": "pistol.png",
-	"frame": {"x":367,"y":296,"w":125,"h":30},
+	"frame": {"x":385,"y":296,"w":125,"h":30},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":30},
@@ -1103,6 +1111,6 @@
 	"format": "RGBA8888",
 	"size": {"w":512,"h":512},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:faf8932e50aba49f635f078fc2c1f097$"
+	"smartupdate": "$TexturePacker:SmartUpdate:109e8926294fcdb8a1d0b7dd4b9c18d4$"
 }
 }

@@ -4,8 +4,8 @@
  *  Created by Vitaly Lyapin.
  *  License: CC BY-NC-SA 3.0
  */
-define(['js/json.loader' ,'js/level', 'js/input', 'js/utils', 'js/config', 'js/ui.manager', 'js/sound.mgr'],
-    function (JSONLoader, Level, Input, Util, Config, UIManager, Sound) {
+define(['js/json.loader' ,'js/level', 'js/input', 'js/utils', 'js/config', 'js/ui.manager', 'js/sound.mgr', 'js/img.loader'],
+    function (JSONLoader, Level, Input, Util, Config, UIManager, Sound, ImgManager) {
         var RENDER_STATE = {
             MAIN: "main",
             TYPING: "typing"
@@ -79,6 +79,8 @@ define(['js/json.loader' ,'js/level', 'js/input', 'js/utils', 'js/config', 'js/u
                 Sound.updateVolume(soundSetting);
             }
             UIManager.get('menu-common').render(guiRenderer, mousePosition);
+
+            guiRenderer.drawImage(ImgManager.getImage("player", "crosshair.png"), Input.mousePosition().x, Input.mousePosition().y);
         };
         return State;
     });
