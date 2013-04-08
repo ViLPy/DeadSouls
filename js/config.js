@@ -28,7 +28,7 @@ define([], function () {
     };
 
     Config.prototype.fetch = function() {
-        this.currentSoundSetting = ~~localStorage.getItem('currentSoundSetting') || 0;
+        this.currentSoundSetting = parseInt(localStorage.getItem('currentSoundSetting')) || 0;
     };
 
     Config.prototype.persist = function() {
