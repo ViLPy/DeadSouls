@@ -52,11 +52,13 @@ define([], function () {
             that.context.decodeAudioData(request.response,
                 function (buffer) {
                     sound.buffer = buffer;
+                    sound.loaded = true;
                     that.loaded++;
                     if (that.toLoad == that.loaded) that.callback();
                 },
                 function (data) {
                     console.log("Failed to load " + sound.url);
+                    sound.loaded = false;
                     that.loaded++;
                     if (that.toLoad == that.loaded) that.callback();
                 });
@@ -99,7 +101,7 @@ define([], function () {
 
         if (this.supported) {
             var sd = this.sounds[name];
-            if (!sd) return;
+            if (!sd || !sd.loaded) return;
 
             var currentClip = this.context.createBufferSource(); // creates a sound source
             currentClip.buffer = sd.buffer;                    // tell the source which sound to play
