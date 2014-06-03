@@ -9,8 +9,8 @@ an HTML5 based monochrome side-scroller shooting game with Box2D support and wit
 This game made specially for Udacity CS255 Game Development Contest.
 
 **Best to be played in latest Google Chrome**
-Unfortunately because this game use physics intensively (raycasting, ragdoll, etc.), other browsers have problems with performance due to weak JavaScript engine.
-Safari totally fail for unknown reason, sorry :)
+Unfortunately because this game use physics intensively (raycasting, ragdoll, etc.), other browsers may have problems with performance.
+Safari may fail for unknown reason, sorry :)
 
 Currently game has next modes:
 
