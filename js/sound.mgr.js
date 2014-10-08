@@ -8,8 +8,8 @@
 define([], function () {
     var SoundMgr = function () {
         try {
-            this.context = new webkitAudioContext();
-            this.mainNode = this.context.createGainNode(0);
+            this.context = new AudioContext();
+            this.mainNode = this.context.createGain(0);
             this.mainNode.connect(this.context.destination);
             this.supported = true;
         }
@@ -27,7 +27,7 @@ define([], function () {
     };
 
     SoundMgr.prototype.addSound = function (name, url) {
-        if (this.sounds[name] || !this.supported) return
+        if (this.sounds[name] || !this.supported) return;
         this.sounds[name] = {url:url, buffer:null};
         this.toLoad++;
     };
@@ -84,7 +84,7 @@ define([], function () {
     SoundMgr.prototype.stopAll = function () {
         if (this.supported) {
             this.mainNode.disconnect();
-            this.mainNode = this.context.createGainNode(0);
+            this.mainNode = this.context.createGain(0);
             this.mainNode.connect(this.context.destination);
         }
     };
@@ -105,10 +105,12 @@ define([], function () {
 
             var currentClip = this.context.createBufferSource(); // creates a sound source
             currentClip.buffer = sd.buffer;                    // tell the source which sound to play
-            currentClip.gain.value = volume;
-            currentClip.connect(this.mainNode);
+            var gain = this.context.createGain();
+            currentClip.connect(gain);
+            gain.gain.value = 0.5;
+            gain.connect(this.mainNode);
             currentClip.loop = looping;
-            currentClip.noteOn(0);                          // play the source now
+            currentClip.start(0);                          // play the source now
         }
     };
 
