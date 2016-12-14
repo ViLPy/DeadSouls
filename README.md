@@ -1,6 +1,8 @@
 Dead souls
 ==========
 
+Playable version can be found here: http://vilpy.github.io/DeadSouls
+
 About
 -----
 an HTML5 based monochrome side-scroller shooting game with Box2D support and with elements of touch typing learning program.
