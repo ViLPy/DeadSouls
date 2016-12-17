@@ -1,6 +1,9 @@
 Dead souls
 ==========
 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fbc2ed00a01c4740a71ec4a7339835ca)](https://www.codacy.com/app/vitalii-liapin/DeadSouls?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ViLPy/DeadSouls&amp;utm_campaign=badger)
+
 Playable version can be found here: http://vilpy.github.io/DeadSouls
 
 About
